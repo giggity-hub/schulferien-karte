@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import HolidayMap from './HolidayMap'
 import Table from './Table'
 
+
 function App() {
   return (
     <div className='flex flex-col w-full bg-green-300 lg:flex-row'>
@@ -13,7 +14,7 @@ function App() {
         </div>
       </div>
       <div className='flex-grow -mt-20 lg:mt-0 h-screen lg:overflow-y-auto bg-purple-200 relative z-index-100'>
-        <div className='bg-green-200 h-500'>asdfasd</div>
+        <Table></Table>
       </div>
     </div>
   )
